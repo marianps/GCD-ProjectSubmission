@@ -41,3 +41,5 @@ The set of variables that were estimated from these signals are:
 
 mean(): Mean value
 std(): Standard deviation
+
+For further information on the units refer to features.txt & features_info.txt
