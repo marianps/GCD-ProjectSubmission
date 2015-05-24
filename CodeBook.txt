@@ -41,5 +41,7 @@ The set of variables that were estimated from these signals are:
 
 mean(): Mean value
 std(): Standard deviation
+The Values in Tidy data are the Mean values of the each columns listed from Raw dataset.Hence only one value is available 
+for a given Subject,Activity and Feature Variables(ie.tBodyAcc-XYZmean..(),tBodyAcc-XYZ std..(),...)
 
 For further information on the units refer to features.txt & features_info.txt
