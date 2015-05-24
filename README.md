@@ -1,24 +1,24 @@
 # GCD-ProjectSubmission
 Contains the Code and supporting Documents for GCD- Project Submission
 ## Setup steps 
-##library(dplyr) --loading package
-##library(stringr) --loading package
-##setwd("C:/Coursera/3-GCD/data/proj") --Setting Working Directory
+###library(dplyr) --loading package
+###library(stringr) --loading package
+###setwd("C:/Coursera/3-GCD/data/proj") --Setting Working Directory
 
 ##Step 0: Reading the All the Files
 
-##y_test <- read.table("./UCI HAR Dataset/test/y_test.txt", quote="\"")
-##X_test <- read.table("./UCI HAR Dataset/test/X_test.txt", quote="\"")
-##y_train <- read.table("./UCI HAR Dataset/train/y_train.txt", quote="\"")
-##X_train <- read.table("./UCI HAR Dataset/train/X_train.txt", quote="\"")
-##features <- read.table("./UCI HAR Dataset/features.txt", quote="\"")
-##activity_labels <- read.table("./UCI HAR Dataset/activity_labels.txt", quote="\"")
-##subject_test <- read.table("./UCI HAR Dataset/test/subject_test.txt", quote="\"")
-##subject_train <- read.table("./UCI HAR Dataset/train/subject_train.txt", quote="\"")
+###y_test <- read.table("./UCI HAR Dataset/test/y_test.txt", quote="\"")
+###X_test <- read.table("./UCI HAR Dataset/test/X_test.txt", quote="\"")
+###y_train <- read.table("./UCI HAR Dataset/train/y_train.txt", quote="\"")
+###X_train <- read.table("./UCI HAR Dataset/train/X_train.txt", quote="\"")
+###features <- read.table("./UCI HAR Dataset/features.txt", quote="\"")
+###activity_labels <- read.table("./UCI HAR Dataset/activity_labels.txt", quote="\"")
+###subject_test <- read.table("./UCI HAR Dataset/test/subject_test.txt", quote="\"")
+###subject_train <- read.table("./UCI HAR Dataset/train/subject_train.txt", quote="\"")
 
 ##Step 1: Merging Training and Test Data
 
-##test<-cbind(y_test,X_test) --Test Data
+###test<-cbind(y_test,X_test) --Test Data
 
 ##train<-cbind(y_train,X_train) --Train Data
 
